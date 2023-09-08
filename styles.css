@@ -1,25 +1,57 @@
+body{
+    background-color: rgb(246, 253, 251);
+}
 .container, #index-card{
 
     margin-top: 100px;
     margin-left: 50px;
 }
-h1{
+h1, h2, h3, h4{
     font-family: "Tahoma", "Helvetica", sans-serif;
-    font-size: 38px;
     color: rgb(74, 103, 123);
     margin-top: auto;
     margin-bottom: 100px;
     margin-left: 90px;
 }
-.container .link-list{
+.container.link-list{
     background-color: rgba(196, 229, 255, 0.5);
     border-radius: 20px;
     padding: 20px;
     size: 50px;
     width: 300px;
 }
-li{
+.shopping-list{
+    background-color: rgba(196, 229, 255, 0.5);
+    border-radius: 20px;
+    padding:20px;
+    width: 300px;
+    margin: 30px;   
+}
+.links{
     margin-bottom:10px;
     margin-top:10px;
     block-size: 50px;
+}
+.page-header{
+    font-size: 48px;
+}
+.text-header{
+    font-size: 28px;
+}
+.list-header{
+    font-size: 18px;
+}
+img{
+    width:300px;
+    height:auto;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.description{
+    color:black;
+    text-align: justify;
+    margin-left:100px;
+}
+ul{
+    list-style-type: none;
 }
