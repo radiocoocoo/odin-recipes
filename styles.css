@@ -2,44 +2,45 @@ body{
     background-color: rgb(246, 253, 251);
 }
 .container, #index-card{
-
-    margin-top: 100px;
-    margin-left: 50px;
+margin:auto;
 }
-h1, h2, h3, h4{
+.container.landing-page{
+    margin: auto;
+    max-width: fit-content;
+}
+h1, .text-header, .list-header{
     font-family: "Tahoma", "Helvetica", sans-serif;
     color: rgb(74, 103, 123);
-    margin-top: auto;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 90px;
 }
-.container.link-list{
+.recipes-header{
+    font-size: 100px;
+    margin-top: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container.link-list, .steps, .shopping-list, .steps{
     background-color: rgba(196, 229, 255, 0.5);
     border-radius: 20px;
-    padding: 20px;
+    padding: 50px;
     size: 50px;
     width: 300px;
+    margin-left: 50px;
 }
-.shopping-list{
-    background-color: rgba(196, 229, 255, 0.5);
-    border-radius: 20px;
-    padding:20px;
-    width: 300px;
-    margin: 30px;   
+#index-card.container.link-list{
+    font-size: 40px;
+    inline-size: auto;
+    line-height: 80px;
+    max-width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 200px;
 }
 .links{
     margin-bottom:10px;
     margin-top:10px;
     block-size: 50px;
-}
-.page-header{
-    font-size: 48px;
-}
-.text-header{
-    font-size: 28px;
-}
-.list-header{
-    font-size: 18px;
 }
 img{
     width:300px;
@@ -48,10 +49,17 @@ img{
     border-radius: 20px;
 }
 .description{
-    color:black;
-    text-align: justify;
-    margin-left:100px;
+    color:rgb(24, 24, 24);
+    text-align: left;
+    margin-left:50px;
+
 }
 ul{
     list-style-type: none;
+}
+*{
+    font-family: "Tahoma", "Helvetica", sans-serif;
+}
+#assembly-steps{
+    inline-size: auto;
 }
