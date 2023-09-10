@@ -1,9 +1,7 @@
 body{
     background-color: rgb(246, 253, 251);
 }
-.container, #index-card{
-margin:auto;
-}
+
 .container.landing-page{
     margin: auto;
     max-width: fit-content;
@@ -35,12 +33,12 @@ h1, .text-header, .list-header{
     line-height: 80px;
     max-width: fit-content;
     padding-top: 5px;
-    padding-bottom: 200px;
 }
 .links{
     margin-bottom:10px;
     margin-top:10px;
     block-size: 50px;
+    display: inline-block;
 }
 img{
     width:300px;
