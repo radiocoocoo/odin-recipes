@@ -6,26 +6,31 @@ body{
     margin: auto;
     max-width: fit-content;
 }
-h1, .text-header, .list-header{
+h1, .list-header{
     font-family: "Tahoma", "Helvetica", sans-serif;
-    color: rgb(74, 103, 123);
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left: 90px;
+    text-align: left;
+    margin-left: 50px;
 }
 .recipes-header{
     font-size: 100px;
     margin-top: auto;
     margin-bottom: 40px;
-    text-align: center;
+    text-align:right;
 }
-.container.link-list, .steps, .shopping-list, .steps{
+.container.link-list, .steps, .shopping-list{
     background-color: rgba(196, 229, 255, 0.5);
     border-radius: 20px;
     padding: 50px;
     size: 50px;
     width: 300px;
     margin-left: 50px;
+    inline-size: auto;
+    display: inline-block;
+    align-items:normal;
+    height: fit-content;
+    width: fit-content;
 }
 #index-card.container.link-list{
     font-size: 40px;
@@ -39,17 +44,21 @@ h1, .text-header, .list-header{
     margin-top:10px;
     block-size: 50px;
     display: inline-block;
+    height: fit-content;
 }
 img{
-    width:300px;
+    width:500px;
     height:auto;
-    margin-left: 100px;
     border-radius: 20px;
 }
 .description{
     color:rgb(24, 24, 24);
     text-align: left;
-    margin-left:50px;
+    display:inline-block;
+    margin: 50px;
+    inline-size: auto;
+    height: fit-content;
+
 
 }
 ul{
@@ -58,6 +67,32 @@ ul{
 *{
     font-family: "Tahoma", "Helvetica", sans-serif;
 }
-#assembly-steps{
-    inline-size: auto;
+
+.all-content{
+    display: inline-block;
+    max-width: fit-content;
+    max-height: fit-content;
+    align-items:normal;
 }
+#ingredients, #assembly-steps{
+ display: flex;
+ justify-content: left;
+ flex-direction: column;
+}
+.text-header{
+    margin-left: 50px;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+}
+.background-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+    
