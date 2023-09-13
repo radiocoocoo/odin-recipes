@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(246, 253, 251);
+    background-color: rgb(249, 253, 252);
 }
 
 .container.landing-page{
@@ -81,18 +81,15 @@ ul{
 }
 .text-header{
     margin-left: 50px;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 20px;
     background-color: blanchedalmond;
     height: fit-content;
     width: fit-content;
     padding: 30px;
+    border-radius: 20px;
 }
 .background-box{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-
+    justify-content: space-evenly;
 }
-    
